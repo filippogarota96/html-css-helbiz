@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* barra di navigazione */
+
+
+.nav__bars {
+  margin-top: 12px;
+
+}
+.logo {
+  width: 60%;
+  margin-top: 22px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav__bars {
+  text-align: right;
+}
+
+.first__nav {
+ display: inline-block;
+
+}
+.first__nav li {
+  padding: 0 20px;
+}
+.first__nav li a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+}
+.secondary__nav {
+  display: inline-block;
+}
+
+.lang {
+  border: none;
+  border-left: 1px solid #9B9B9B;
+  border-right: 1px solid #9B9B9B;
+  background-color: transparent;
+  padding: 0 10px;
+  line-height: 12px;
+  font-size: 10px;
+}
+
+.login  {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
