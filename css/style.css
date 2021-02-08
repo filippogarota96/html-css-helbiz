@@ -5,15 +5,19 @@ body {
 
 /* barra di navigazione */
 
+.bar_fixed {
+  position: relative;
 
+}
 .header-top {
   line-height: 70px;
+  height: 100px;
 
 }
 .logo {
   width: 100px;
-
 }
+
 
 .logo img {
   width: 100%;
@@ -60,15 +64,17 @@ body {
 }
 
 .mobile_menu {
-  background-color: transparent;
+  display: inline-block;
   line-height: normal;
   border: none;
-  font-size: 20px;
+  font-size: 30px;
+  background-color: transparent;
 }
 
+/* hero */
 .hero {
-  width: 1170px;
-  margin: 70px auto;
+  max-width: 1170px;
+  margin: auto;
   text-align: center;
 }
 
@@ -80,9 +86,70 @@ body {
   width: 100%;
 }
 
+/* /hero */
+
+/* sezione banner */
+
+.banner{
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: -300px;
+
+}
+
+
+.container__small {
+  max-width: 800px;
+  margin: auto;
+  font-size: 0;
+
+}
+
+.box_margin {
+  position: relative;
+  top: 200px;
+}
+.box {
+  display: inline-block;
+  width: calc(100% / 3);
+  position: relative;s
+}
+
+
+.box-1 {
+  right: calc(100% / 3);
+}
+
+
+
+.box-2 {
+  height: 500px;
+  left: calc(100% / 3);
+  
+}
+
+.box-2 img {
+  max-width: 100%;
+}
+.box-3 {
+  background-color: yellow;
+}
+
+/* /sezione banner */
+
 
 @media screen and (max-width: 768px)  {
   .hero h1 {
     font-size: 60px;
+  }
+
+  .box {
+    width: 100%;
+  }
+  .box-1 {
+    right: auto;
+  }
+  .box-2 {
+    left: auto;
   }
 }
