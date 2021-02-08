@@ -6,13 +6,13 @@ body {
 /* barra di navigazione */
 
 
-.nav__bars {
-  margin-top: 12px;
+.header-top {
+  line-height: 70px;
 
 }
 .logo {
-  width: 60%;
-  margin-top: 22px;
+  width: 100px;
+
 }
 
 .logo img {
@@ -38,6 +38,7 @@ body {
 }
 .secondary__nav {
   display: inline-block;
+  text-align: right;
 }
 
 .lang {
@@ -55,4 +56,33 @@ body {
   color: white;
   border: none;
   padding: 10px 20px;
+  line-height: normal;
+}
+
+.mobile_menu {
+  background-color: transparent;
+  line-height: normal;
+  border: none;
+  font-size: 20px;
+}
+
+.hero {
+  width: 1170px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 110px;
+  font-weight: 600
+}
+.hero img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px)  {
+  .hero h1 {
+    font-size: 60px;
+  }
 }

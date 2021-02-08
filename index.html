@@ -8,7 +8,7 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- /bootstrap -->
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -18,7 +18,7 @@
   <!-- intestazione -->
     <!-- barra di navigazione -->
     <header>
-      <div class="container">
+      <div class="container header-top">
         <div class="row">
           <div class="col-xs-2">
             <div class="logo">
@@ -27,7 +27,7 @@
           </div>
           <div class="col-xs-10">
             <div class="nav__bars">
-              <nav class="first__nav">
+              <nav class="first__nav hidden-xs">
                 <ul class="list-inline">
                   <li><a href="">Mobilità</a></li>
                   <li><a href="">Helbiz Kitchen</a></li>
@@ -35,7 +35,7 @@
                   <li><a href="">Chi siamo</a></li>
                 </ul>
               </nav>
-              <nav class="secondary__nav">
+              <nav class="secondary__nav hidden-xs">
                 <ul class="list-inline">
                 <li>
                   <button type="button" class="lang" name="button">ENG</button>
@@ -45,6 +45,7 @@
                 </li>
                 </ul>
               </nav>
+              <button class="mobile_menu visible-xs"><i class="fas fa-bars"></i></button>
             </div>
           </div>
 
@@ -52,6 +53,10 @@
 
 
         </div>
+      </div>
+      <div class="hero">
+        <h1>Mobility of Tomorrow</h1>
+        <img src="img/hero.jpg" alt="">
       </div>
     </header>
   <!-- /intestazione -->
